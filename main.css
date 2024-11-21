@@ -12927,6 +12927,9 @@ html {
 	max-width: 250px;
 }
 
+.gs-w-\[250px\] {
+	width: 250px;
+}
 .gs-w-22{
   width: 22px;
 }
@@ -13145,15 +13148,19 @@ html {
   }
 
   .gs-md\:justify-center{
-    justify-content: center;
+    justify-content: center !important;
   }
 
   .gs-md\:justify-between{
-    justify-content: space-between;
+    justify-content: space-between !important;
   }
 
   .gs-md\:items-center{
-    align-items: center;
+    align-items: center !important;
+  }
+
+  .gs-md\:items-start{
+    align-items: flex-start !important;
   }
 }
 
@@ -13192,6 +13199,10 @@ html {
   max-width: 1100px;
 }
 
+.gs-w-fit {
+  width: fit-content;
+}
+
 /* special inners */
 
 .gs-strong\:font-bold strong {
@@ -13215,3 +13226,15 @@ html {
 	line-height: 1.5rem;
 }
 
+.gs-img\:max-w-\[250px\] img {
+  max-width: 250px;
+}
+.gs-img\:max-w-\[240px\] img {
+  max-width: 240px;
+}
+.gs-img\:w-\[240px\] img {
+  max-width: 240px;
+}
+
+
+/
