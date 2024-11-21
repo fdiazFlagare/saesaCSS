@@ -12877,6 +12877,10 @@ html {
 	border-color: #dcdcdc;
 }
 
+.gs-border-white {
+  border-color: white;
+}
+
 /* borders-radius */
 
 .gs-rounded-0 {
@@ -13099,6 +13103,10 @@ html {
 }
 
 
+.gs-pl-6 {
+  padding-left: 1.5rem;
+}
+
 /* align */
 
 .gs-text-left{
@@ -13170,6 +13178,10 @@ html {
 
 .gs-max-w-\[1020px\] {
 	max-width: 1020px;
+}
+
+.gs-max-w\[1100px\] {
+  max-width: 1100px;
 }
 
 /* special inners */
