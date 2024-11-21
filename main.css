@@ -13163,6 +13163,17 @@ html {
   }
 }
 
+/* max-width */
+.gs-max-w-\[500px\] {
+	max-width: 500px;
+}
+
+.gs-max-w-\[1020px\] {
+	max-width: 1020px;
+}
+
+/* special inners */
+
 .gs-strong\:font-bold strong {
 	font-weight: 700;
 }
@@ -13171,10 +13182,16 @@ html {
   margin: 0;
 }
 
-.gs-max-w-\[500px\] {
-	max-width: 500px;
+.gs-p\:text-center p {
+  text-align: center;
 }
 
-.gs-max-w-\[1020px\] {
-	max-width: 1020px;
+.gs-p\:text-primary p {
+  color: #092754;
 }
+
+.gs-p\:text-base p {
+  font-size: 1rem;
+	line-height: 1.5rem;
+}
+
