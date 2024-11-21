@@ -12340,6 +12340,14 @@ you can use the generic selector below, but it's slower:
 	margin-bottom: 4rem;
 }
 
+.gs-mb-20{
+  margin-bottom: 5rem;
+}
+
+.gs-mb-24 {
+  margin-bottom: 6rem;
+}
+
 @media (min-width: 1024px) {
 	.lg\:gs-mr-0 {
 		margin-right: 0;
@@ -12843,6 +12851,10 @@ html {
 
 .gs-border-soft-grey {
 	border-color: #f1f2f2;
+}
+
+.gs-border-light-grey {
+  border-color: #d3d3d3;
 }
 
 .gs-border-medium-grey {
