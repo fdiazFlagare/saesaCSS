@@ -12352,6 +12352,10 @@ you can use the generic selector below, but it's slower:
   margin-bottom: 6rem;
 }
 
+.gs-mt-24 {
+  margin-top: 6rem;
+}
+
 @media (min-width: 1024px) {
 	.lg\:gs-mr-0 {
 		margin-right: 0;
