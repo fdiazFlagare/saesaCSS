@@ -11963,6 +11963,10 @@ you can use the generic selector below, but it's slower:
 	gap: 1rem;
 }
 
+.gs-gap-6 {
+  gap: 1.5rem;
+}
+
 .gs-gap-8 {
 	gap: 2rem;
 }
@@ -12356,6 +12360,10 @@ you can use the generic selector below, but it's slower:
 
 .gs-p-0 {
 	padding: 0;
+}
+
+.gs-p-2{
+  padding: 0.5rem;
 }
 
 .gs-p-4 {
@@ -12827,6 +12835,14 @@ html {
 	border-left-width: 1px;
 }
 
+.gs-border-l-2 {
+  border-left-width: 2px;
+}
+
+.gs-border-l-4 {
+  border-left-width: 4px;
+}
+
 .gs-border-r-0 {
 	border-right-width: 0px;
 }
@@ -13149,4 +13165,16 @@ html {
 
 .gs-strong\:font-bold strong {
 	font-weight: 700;
+}
+
+.gs-p\:m-0 p {
+  margin: 0;
+}
+
+.gs-max-w-\[500px\] {
+	max-width: 500px;
+}
+
+.gs-max-w-\[1020px\] {
+	max-width: 1020px;
 }
