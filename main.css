@@ -12919,6 +12919,15 @@ html {
 	height: 44px;
 }
 
+.gs-w-80px{
+  width: 80px;
+}
+
+
+.gs-h-80px {
+  height: 80px;
+}
+
 /* margin */
 
 .gs-mx-0 {
@@ -13136,4 +13145,8 @@ html {
   .gs-lg\:justify-between {
     justify-content: space-between !important;
   }
+}
+
+.gs-strong\:font-bold strong {
+	font-weight: 700;
 }
