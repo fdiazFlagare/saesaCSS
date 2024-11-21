@@ -12378,6 +12378,10 @@ you can use the generic selector below, but it's slower:
 	padding: 1.25rem;
 }
 
+.gs-p-6 {
+  padding: 1.5rem;
+}
+
 .gs-p-8 {
 	padding: 2rem;
 }
