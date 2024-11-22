@@ -12475,6 +12475,11 @@ you can use the generic selector below, but it's slower:
 	font-family: 'Neutrif Studio', 'Courier New', Courier, monospace;
 }
 
+.gs-text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
 .gs-text-sm {
 	font-size: 0.875rem;
 	line-height: 1.25rem;
@@ -12762,6 +12767,10 @@ html {
 
 .gs-bg-hard-grey {
   background-color: #565656;
+}
+
+.gs-bg-soft-black {
+  background-color: #282a2b
 }
 
 
