@@ -13251,7 +13251,7 @@ html {
 	list-style: disc !important;
 }
 
-.gs-list-padding-li  li {
+.gs-list-padding-ul  ul {
 	padding-left: 1.5rem;
 }
 
