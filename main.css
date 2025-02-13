@@ -13247,8 +13247,12 @@ html {
 	display: none;
 }
 
-.gs-list-style-li > &li {
+.gs-list-style-li  li {
 	list-style: disc !important;
+}
+
+.gs-list-padding-li  li {
+	padding-left: 1.5rem;
 }
 
 .gs-gap-7 {
