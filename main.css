@@ -12021,35 +12021,7 @@ you can use the generic selector below, but it's slower:
 	aspect-ratio: 1008 / 574;
 }
 
-@media (min-width: 640px) {
-	.gs-container {
-		max-width: 640px;
-	}
-}
 
-@media (min-width: 768px) {
-	.gs-container {
-		max-width: 768px;
-	}
-}
-
-@media (min-width: 1024px) {
-	.gs-container {
-		max-width: 1024px;
-	}
-}
-
-@media (min-width: 1280px) {
-	.gs-container {
-		max-width: 1280px;
-	}
-}
-
-@media (min-width: 1536px) {
-	.gs-container {
-		max-width: 1536px;
-	}
-}
 
 .gs-flex {
 	display: flex;
@@ -13246,3 +13218,48 @@ html {
 }
 
 
+@media (min-width: 640px) {
+	.gs-container {
+		max-width: 640px;
+	}
+}
+
+@media (min-width: 768px) {
+	.gs-container {
+		max-width: 768px;
+	}
+}
+
+@media (min-width: 1024px) {
+	.gs-container {
+		max-width: 1024px;
+	}
+}
+/* 
+@media (min-width: 1280px) {
+	.gs-container {
+		max-width: 1280px;
+	}
+}
+
+@media (min-width: 1536px) {
+	.gs-container {
+		max-width: 1536px;
+	}
+} */
+
+.autofit-float.autofit-row.portlet-header {
+	display: none;
+}
+
+.gs-list-style {
+	list-style: disc;
+}
+
+.[&>li]:list-disc > li {
+  list-style-type: disc;
+}
+
+.[&>li]:pl-5 > li {
+  padding-left: 1.25rem;
+}
