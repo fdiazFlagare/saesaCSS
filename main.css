@@ -13247,6 +13247,6 @@ html {
 	display: none;
 }
 
-.gs-list-style\[li\] > li {
+.gs-list-style\[li\] > &li {
 	list-style: disc;
 }
