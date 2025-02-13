@@ -13040,7 +13040,8 @@ html {
 }
 
 .gs-text-4xl {
-	font-size: 2.25rem;
+	/* font-size: 2.25rem; saesa ocupa 2.125*/ 
+	font-size: 2.125rem;
 	line-height: 2.75rem;
 }
 
