@@ -13247,14 +13247,6 @@ html {
 	display: none;
 }
 
-.gs-list-style {
+.gs-list-style\[li\] > li {
 	list-style: disc;
-}
-
-.[&>li]:list-disc > li {
-  list-style-type: disc;
-}
-
-.[&>li]:pl-5 > li {
-  padding-left: 1.25rem;
 }
